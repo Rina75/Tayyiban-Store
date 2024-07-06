@@ -1,6 +1,4 @@
-# Tayyiban-Store Panduan
->>>>>>> c59caa0f47aa3e6a5c36188ff44698913d91c83d
-
+## Tayyiban-Store Panduan
 # Download dan Install Laravel 
 Laravel versi 10.45.1 
 
