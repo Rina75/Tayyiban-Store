@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 06 Jul 2024 pada 17.38
+-- Waktu pembuatan: 06 Jul 2024 pada 18.52
 -- Versi server: 10.4.24-MariaDB
 -- Versi PHP: 8.1.6
 
@@ -164,7 +164,9 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
 (1, 'rina', 'rinaorrina75@gmail.com', NULL, '$2y$12$Pc6.kEFkGio3PU.tfUX0I.WNFCGeTw626sDsC8P4CJ5MNOI8PM5FW', NULL, '2024-07-06 04:50:58', '2024-07-06 04:50:58'),
-(2, 'TayyibanStore', 'tayyibanstore@gmail.com', NULL, '$2y$12$ehvJdE/p3rljxDJST2Ijtu4xNvMhUQhFNaN1HBoezNob14ey0qhKW', NULL, '2024-07-06 07:36:06', '2024-07-06 07:36:06');
+(2, 'TayyibanStore', 'tayyibanstore@gmail.com', NULL, '$2y$12$ehvJdE/p3rljxDJST2Ijtu4xNvMhUQhFNaN1HBoezNob14ey0qhKW', NULL, '2024-07-06 07:36:06', '2024-07-06 07:36:06'),
+(3, 'admin', 'admin@gmail.com', NULL, '$2y$12$ayjZbRn6QLNK4luIbNGky.Ub/6bjl0BH2PEF2rqLRUE3WZRDGgmui', NULL, '2024-07-06 08:20:39', '2024-07-06 08:20:39'),
+(4, 'user', 'user@gmail.com', NULL, '$2y$12$/ycbWH92lJxuxWailHVyNuUd8/VNtlwGEgrkV5ByB.P2NZ8/IVCdC', NULL, '2024-07-06 08:52:00', '2024-07-06 08:52:00');
 
 --
 -- Indexes for dumped tables
@@ -270,7 +272,7 @@ ALTER TABLE `transactions`
 -- AUTO_INCREMENT untuk tabel `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
