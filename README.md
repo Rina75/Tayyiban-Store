@@ -1,3 +1,34 @@
+# Tayyiban-Store Panduan
+>>>>>>> c59caa0f47aa3e6a5c36188ff44698913d91c83d
+
+# Download dan Install Laravel 
+Laravel versi 10.45.1 
+
+# Dowload dan Install Composer
+Composer version 2.6.5
+
+# Php Versi 8
+
+# Clone repository
+
+# Install dependencies
+composer install
+
+# Copy .env file and configure
+cp .env.example .env
+# Edit .env file as needed
+
+# Generate application key
+php artisan key:generate
+
+# Run database migrations (if applicable)
+php artisan migrate
+
+# Run the development server
+php artisan serve
+
+
+
 <<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
@@ -66,5 +97,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 =======
-# Tayyiban-Store
->>>>>>> c59caa0f47aa3e6a5c36188ff44698913d91c83d
+
