@@ -5,8 +5,8 @@
 3. Php 8
 
 ## Cara Install dan Konfigurasi
-1. Clone repository "https://github.com/Rina75/rina_technovation_tayyibanstore.git"
-2. Masuk ke direktori proyek "cd nama repository"
+1. Clone repository "git clone https://github.com/Rina75/rina_technovation_tayyibanstore.git"
+2. Masuk ke direktori proyek "cd rina_technovation_tayyibanstore"
 3. Install dependencies "composer install"
 4. Copy .env file and configure "cp .env.example .env"
 5. masukan bama database "ecommerce_db" ke dalam file .env
