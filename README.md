@@ -1,31 +1,18 @@
 # Tayyiban-Store Panduan
-## Download dan Install Laravel 
+## Spesifikasi
 Laravel versi 10.45.1 
-
-## Dowload dan Install Composer
 Composer version 2.6.5
+Php Versi 8
 
-## Php Versi 8
-
-## Clone repository
-
-## Install dependencies
-composer install
-
-## Copy .env file and configure
-cp .env.example .env
-
-## Edit .env file as needed
-masukan bama database "ecommerce_db"
-
-## Generate application key
-php artisan key:generate
-
-## Run database migrations (if applicable)
-php artisan migrate
-
-## Run the development server
-php artisan serve
+## Cara Install dan Konfigurasi
+1. Clone repository "https://github.com/Rina75/rina_technovation_tayyibanstore.git"
+2. Masuk ke direktori proyek "cd nama repository"
+3. Install dependencies "composer install"
+4. Copy .env file and configure "cp .env.example .env"
+5. masukan bama database "ecommerce_db" ke dalam file .env
+6. Generate aplikasi key "php artisan key:generate"
+7. Run database migrations "php artisan migrate"
+8. Run the development server "php artisan serve"
 
 
 
