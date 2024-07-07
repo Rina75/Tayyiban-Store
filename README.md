@@ -13,12 +13,7 @@
 6. masukan bama database "ecommerce_db" ke dalam file .env
 
    Contoh:
-    DB_CONNECTION=mysql
-
-    DB_HOST=127.0.0.1
-
-    DB_PORT=3306
-
+    
     DB_DATABASE=ecommerce_db
 
     DB_USERNAME=root    -> ganti root senuai username database anda
@@ -34,8 +29,9 @@
 1. Silahkan Buat Akun Baru dengan Mengklik "Register"
 2. Atau Silahkan login dengan
 
-username : tayyibanstore@gmail.com
-password : tayyibanstore
+    username : tayyibanstore@gmail.com
+    
+    password : tayyibanstore
 
 <<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
