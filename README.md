@@ -10,9 +10,20 @@
 3. Install dependencies "composer install"
 4. Copy .env file and configure "cp .env.example .env"
 5. masukan bama database "ecommerce_db" ke dalam file .env
-6. Generate aplikasi key "php artisan key:generate"
-7. Run database migrations "php artisan migrate"
-8. Run the development server "php artisan serve"
+
+   Contoh:
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=ecommerce_db
+    DB_USERNAME=root
+    DB_PASSWORD=
+
+6. Impor file database ecommerce_db.sql ke dalam phpmyadmin   
+7. Generate aplikasi key "php artisan key:generate"
+8. Run database migrations "php artisan migrate"
+9. Run the development server "php artisan serve"
+
 
 
 
