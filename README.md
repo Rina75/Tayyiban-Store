@@ -16,7 +16,7 @@
     
     DB_DATABASE=ecommerce_db
 
-    DB_USERNAME=root    -> ganti root senuai username database anda
+    DB_USERNAME=root    -> ganti root sesuai username database anda
 
     DB_PASSWORD=        -> masukkan password database anda jika tidak ada silahkan kosongkan 
 
