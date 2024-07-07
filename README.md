@@ -9,23 +9,33 @@
 2. Masuk ke direktori proyek "cd rina_technovation_tayyibanstore"
 3. Install dependencies "composer install"
 4. Copy .env file and configure "cp .env.example .env"
-5. masukan bama database "ecommerce_db" ke dalam file .env
+5. Impor file database ecommerce_db.sql ke dalam phpmyadmin  
+6. masukan bama database "ecommerce_db" ke dalam file .env
 
    Contoh:
     DB_CONNECTION=mysql
+
     DB_HOST=127.0.0.1
+
     DB_PORT=3306
+
     DB_DATABASE=ecommerce_db
-    DB_USERNAME=root
-    DB_PASSWORD=
 
-6. Impor file database ecommerce_db.sql ke dalam phpmyadmin   
-7. Generate aplikasi key "php artisan key:generate"
-8. Run database migrations "php artisan migrate"
-9. Run the development server "php artisan serve"
+    DB_USERNAME=root    -> ganti root senuai username database anda
 
+    DB_PASSWORD=        -> masukkan password database anda jika tidak ada silahkan kosongkan 
 
+ 
+8. Generate aplikasi key "php artisan key:generate"
+9. Run database migrations "php artisan migrate"
+10. Run the development server "php artisan serve"
 
+## Cara Login
+1. Silahkan Buat Akun Baru dengan Mengklik "Register"
+2. Atau Silahkan login dengan
+
+username : tayyibanstore@gmail.com
+password : tayyibanstore
 
 <<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
