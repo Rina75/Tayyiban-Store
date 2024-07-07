@@ -3,6 +3,9 @@
 1. Laravel 10.45.1 
 2. Composer 2.6.5
 3. Php 8
+4. MySql 8.0.11
+5. Apache 2.4.39
+6. Xampp 3.2.4
 
 ## Cara Install dan Konfigurasi
 1. Clone repository "git clone https://github.com/Rina75/rina_technovation_tayyibanstore.git"
