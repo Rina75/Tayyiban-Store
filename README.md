@@ -1,8 +1,8 @@
 # Tayyiban-Store Panduan
 ## Spesifikasi
-Laravel versi 10.45.1 
-Composer version 2.6.5
-Php Versi 8
+1. Laravel 10.45.1 
+2. Composer 2.6.5
+3. Php 8
 
 ## Cara Install dan Konfigurasi
 1. Clone repository "https://github.com/Rina75/rina_technovation_tayyibanstore.git"
